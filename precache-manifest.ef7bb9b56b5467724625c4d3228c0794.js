@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "084538c36edfd8c1b9cb0d82debf964d",
+    "revision": "88b1b9d41cadfafe2713b6ac24e5f947",
     "url": "/valorskins/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/valorskins/static/css/2.f76e3c0a.chunk.css"
   },
   {
-    "revision": "4092d71575ede543b538",
+    "revision": "783b7a47bc6fb6f92b3c",
     "url": "/valorskins/static/css/main.11d03e2f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/valorskins/static/js/2.159530dd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4092d71575ede543b538",
-    "url": "/valorskins/static/js/main.95f00011.chunk.js"
+    "revision": "783b7a47bc6fb6f92b3c",
+    "url": "/valorskins/static/js/main.8bd5c437.chunk.js"
   },
   {
     "revision": "d240c84dc8b640d0fc96",
