@@ -29,7 +29,7 @@ class Ares extends Component {
           {/* Aristocrat */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://github.com/thulka2/valorskins/blob/master/src/displays/Ares/aristocrat-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Ares/aristocrat-display.png) center'}}>
            Aristocrat
           </CardTitle>
 
@@ -63,7 +63,7 @@ class Ares extends Component {
           {/* Hivemind */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://github.com/thulka2/valorskins/blob/master/src/displays/Ares/hivemind-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Ares/hivemind-display.png) center'}}>
           Hivemind
           </CardTitle>
 
@@ -95,7 +95,7 @@ class Ares extends Component {
           {/* Prism */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://github.com/thulka2/valorskins/blob/master/src/displays/Ares/prism-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Ares/prism-display.png) center'}}>
            Prism
           </CardTitle>
 
@@ -141,7 +141,7 @@ class Ares extends Component {
           {/* Rush */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://github.com/thulka2/valorskins/blob/master/src/displays/Ares/rush-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Ares/rush-display.png) center'}}>
            Rush
           </CardTitle>
 

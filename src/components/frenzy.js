@@ -29,7 +29,7 @@ class Frenzy extends Component {
           {/* COUTURE */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/738434044131409920/couture-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Frenzy/couture-display.png) center'}}>
            Couture
           </CardTitle>
 
@@ -61,7 +61,7 @@ class Frenzy extends Component {
           {/* ENDERFLAME */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/738434045133717544/enderflame-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Frenzy/enderflame-display.png) center'}}>
            Enderflame
           </CardTitle>
 
@@ -94,7 +94,7 @@ class Frenzy extends Component {
           {/* Glitchpop */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741362034301730899/glitchpop-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Frenzy/glitchpop-display.png) center'}}>
            Glitchpop
           </CardTitle>
 
@@ -139,7 +139,7 @@ class Frenzy extends Component {
           {/* Ragnarocker */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/738434046581014639/ragnarocker-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Frenzy/ragnarocker-display.png) center'}}>
            Ragnarocker
           </CardTitle>
 
@@ -171,7 +171,7 @@ class Frenzy extends Component {
           {/* RUSH */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/738434047809683724/rush-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Frenzy/rush-display.png) center'}}>
            Rush
           </CardTitle>
 
@@ -204,7 +204,7 @@ class Frenzy extends Component {
           {/* SPITFIRE */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/738434039215554600/spitfire-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Frenzy/spitfire-display.png) center'}}>
            Spitfire
           </CardTitle>
 
