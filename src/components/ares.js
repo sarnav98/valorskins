@@ -29,7 +29,7 @@ class Ares extends Component {
           {/* Aristocrat */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(./src/displays/Ares/aristocrat-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://github.com/thulka2/valorskins/blob/master/src/displays/Ares/aristocrat-display.png) center'}}>
            Aristocrat
           </CardTitle>
 
@@ -63,7 +63,7 @@ class Ares extends Component {
           {/* Hivemind */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743570389250080880/hivemind-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://github.com/thulka2/valorskins/blob/master/src/displays/Ares/hivemind-display.png) center'}}>
           Hivemind
           </CardTitle>
 
@@ -95,7 +95,7 @@ class Ares extends Component {
           {/* Prism */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743570390391062559/prism-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://github.com/thulka2/valorskins/blob/master/src/displays/Ares/prism-display.png) center'}}>
            Prism
           </CardTitle>
 
@@ -141,7 +141,7 @@ class Ares extends Component {
           {/* Rush */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743570391355883651/rush-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://github.com/thulka2/valorskins/blob/master/src/displays/Ares/rush-display.png) center'}}>
            Rush
           </CardTitle>
 
@@ -176,7 +176,7 @@ class Ares extends Component {
           {/* Sakura */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743570386687623238/sakura-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://github.com/thulka2/valorskins/blob/master/src/displays/Ares/sakura-display.png) center'}}>
            Sakura
           </CardTitle>
 
