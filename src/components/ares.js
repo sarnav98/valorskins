@@ -176,7 +176,7 @@ class Ares extends Component {
           {/* Sakura */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://github.com/thulka2/valorskins/blob/master/src/displays/Ares/sakura-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Ares/sakura-display.png) center'}}>
            Sakura
           </CardTitle>
 
