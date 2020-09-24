@@ -29,7 +29,7 @@ class Melee extends Component {
           {/* Enderflame Dagger */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743626213045567558/enderflamedagger-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/enderflamedagger-display.png) center'}}>
            Enderflame Dagger
           </CardTitle>
 
@@ -63,7 +63,7 @@ class Melee extends Component {
           {/* Glitchpop Dagger */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743626214303989930/glitchpopdagger-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/glitchpopdagger-display.png) center'}}>
            Glitchpop Dagger
           </CardTitle>
 
@@ -96,7 +96,7 @@ class Melee extends Component {
           {/* Hivemind Sword */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743626211464314950/hivemindsword-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/hivemindsword-display.png) center'}}>
            Hivemind Sword
           </CardTitle>
 
@@ -140,7 +140,7 @@ class Melee extends Component {
           {/* Kingdom Knife */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743626476645122088/kingdomknife-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/kingdomknife-display.png) center'}}>
            Kingdom Knife
           </CardTitle>
 
@@ -172,7 +172,7 @@ class Melee extends Component {
           {/* Luxe Knife */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px',  background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743626477903544400/luxeknife-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px',  background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/luxeknife-display.png) center'}}>
           Luxe Knife
           </CardTitle>
 
@@ -205,7 +205,7 @@ class Melee extends Component {
           {/* Oni Claw */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743626475990679602/oniclaw-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/oniclaw-display.png) center'}}>
            Oni Claw
           </CardTitle>
 
@@ -250,7 +250,7 @@ class Melee extends Component {
           {/* Prime Axe */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743626734590492712/primeaxe-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/primeaxe-display.png) center'}}>
            Prime Axe
           </CardTitle>
 
@@ -283,7 +283,7 @@ class Melee extends Component {
           {/* Prism Knife */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px',  background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743626736381591572/prismknife-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px',  background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/prismknife-display.png) center'}}>
           Prism Knife
           </CardTitle>
 
@@ -316,7 +316,7 @@ class Melee extends Component {
           {/* Sovereign Sword */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743626737694408704/sovereignsword-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/sovereignsword-display.png) center'}}>
            Sovereign Sword
           </CardTitle>
 

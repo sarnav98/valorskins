@@ -29,7 +29,7 @@ class Shorty extends Component {
           {/* Hivemind */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741360574629412975/hivemind-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Shorty/hivemind-display.png) center'}}>
            Hivemind
           </CardTitle>
 
@@ -62,7 +62,7 @@ class Shorty extends Component {
           {/* Oni */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/738420992124256386/oni-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Shorty/oni-display.png) center'}}>
            Oni
           </CardTitle>
 
@@ -95,7 +95,7 @@ class Shorty extends Component {
           {/* Snakebite */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/738419329212612618/snakebite-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Shorty/snakebite-display.png) center'}}>
            Snakebite
           </CardTitle>
 
@@ -139,7 +139,7 @@ class Shorty extends Component {
           {/* Wunderkind */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741360583009370182/wunderkind-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Shorty/wunderkind-display.png) center'}}>
            Wunderkind
           </CardTitle>
 

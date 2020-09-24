@@ -29,7 +29,7 @@ class Odin extends Component {
           {/* Dot Exe */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743571568248225872/dotexe-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Odin/dotexe-display.png) center'}}>
            Dot Exe
           </CardTitle>
 
@@ -62,7 +62,7 @@ class Odin extends Component {
           {/* Glitchpop */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743571566578892923/glitchpop-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Odin/glitchpop-display.png) center'}}>
           Glitchpop
           </CardTitle>
 

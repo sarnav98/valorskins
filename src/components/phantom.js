@@ -29,7 +29,7 @@ class Phantom extends Component {
           {/* Avalanche */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741411217477730384/avalanche-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Phantom/avalanche-display.png) center'}}>
            Avalanche
           </CardTitle>
 
@@ -63,7 +63,7 @@ class Phantom extends Component {
           {/* Galleria */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741411219218497646/galleria-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Phantom/galleria-display.png) center'}}>
            Galleria
           </CardTitle>
 
@@ -96,7 +96,7 @@ class Phantom extends Component {
           {/* Kingdom */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741411220233519205/kingdom-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Phantom/kingdom-display.png) center'}}>
            Kingdom
           </CardTitle>
 
@@ -140,7 +140,7 @@ class Phantom extends Component {
           {/* Oni */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741411221575827650/oni-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Phantom/oni-display.png) center'}}>
            Oni
           </CardTitle>
 
@@ -173,7 +173,7 @@ class Phantom extends Component {
           {/* Prism */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741411222943039688/prism-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Phantom/prism-display.png) center'}}>
            Prism
           </CardTitle>
 
@@ -206,7 +206,7 @@ class Phantom extends Component {
           {/* Rush */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741411224637669436/rush-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Phantom/rush-display.png) center'}}>
            Rush
           </CardTitle>
 

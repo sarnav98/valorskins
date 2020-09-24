@@ -29,7 +29,7 @@ class Vandal extends Component {
           {/* Aristocrat */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741413500554838107/aristocrat-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Vandal/aristocrat-display.png) center'}}>
            Aristocrat
           </CardTitle>
 
@@ -62,7 +62,7 @@ class Vandal extends Component {
           {/* Avalanche */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741413501821780129/avalanche-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Vandal/avalanche-display.png) center'}}>
           Avalanche
           </CardTitle>
 
@@ -96,7 +96,7 @@ class Vandal extends Component {
           {/* DOT EXE */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741413498306691153/dotexe-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Vandal/dotexe-display.png) center'}}>
            Dot Exe
           </CardTitle>
 
@@ -144,7 +144,7 @@ class Vandal extends Component {
           {/* Enderflame */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741415145045229678/enderflame-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Vandal/enderflame-display.png) center'}}>
            Enderflame
           </CardTitle>
 
@@ -177,7 +177,7 @@ class Vandal extends Component {
           {/* Hivemind */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741415141614026873/hivemind-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Vandal/hivemind-display.png) center'}}>
            Hivemind
           </CardTitle>
 
@@ -209,7 +209,7 @@ class Vandal extends Component {
           {/* Luxe */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741415146651385876/luxe-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Vandal/luxe-display.png) center'}}>
            Luxe
           </CardTitle>
 
@@ -254,7 +254,7 @@ class Vandal extends Component {
           {/* Prime */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741415777793474660/prime-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Vandal/prime-display.png) center'}}>
            Prime
           </CardTitle>
 
@@ -287,7 +287,7 @@ class Vandal extends Component {
           {/* Sakura */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741415779542761492/sakura-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Vandal/sakura-display.png) center'}}>
            Sakura
           </CardTitle>
 

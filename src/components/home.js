@@ -76,6 +76,13 @@ class Home extends Component {
       </section>
 
       <section className="guns-gunname" style={{backgroundColor: '#0a0a0a'}} >
+        <h1 className="home-page-header"> Site News </h1>
+        <p classname="home-page-news">
+        Version 1.0 : ValorSkins is officially live!
+        </p>
+      </section>
+
+      <section className="guns-gunname" style={{backgroundColor: '#0a0a0a'}} >
         <h1 className="home-page-header"> Browse skins </h1>
       </section>
 

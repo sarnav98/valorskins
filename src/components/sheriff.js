@@ -29,7 +29,7 @@ class Sheriff extends Component {
           {/* ARISTOCRAT */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741365135477571615/artistocrat-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Sheriff/artistocrat-display.png) center'}}>
            Aristocrat
           </CardTitle>
 
@@ -62,7 +62,7 @@ class Sheriff extends Component {
           {/* CONVEX */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741365136719085678/convex-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Sheriff/convex-display.png) center'}}>
            Convex
           </CardTitle>
 
@@ -95,7 +95,7 @@ class Sheriff extends Component {
           {/* GAME OVER */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741365138237685850/gameover-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Sheriff/gameover-display.png) center'}}>
            Game Over
           </CardTitle>
 
@@ -140,7 +140,7 @@ class Sheriff extends Component {
           {/* Peacekeeper */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741365139575668756/peacekeeper-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Sheriff/peacekeeper-display.png) center'}}>
            Peacekeeper
           </CardTitle>
 
@@ -172,7 +172,7 @@ class Sheriff extends Component {
           {/* POLYfox */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741365141156790282/polyfox-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Sheriff/polyfox-display.png) center'}}>
            POLYfox
           </CardTitle>
 
@@ -204,7 +204,7 @@ class Sheriff extends Component {
           {/* Protektor */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741365143262462063/protektor-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Sheriff/protektor-display.png) center'}}>
            Protektor
           </CardTitle>
 
@@ -248,7 +248,7 @@ class Sheriff extends Component {
           {/* SAKURA */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741365134919991456/sakura-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Sheriff/sakura-display.png) center'}}>
            Sakura
           </CardTitle>
 
