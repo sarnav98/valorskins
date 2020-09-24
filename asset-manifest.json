@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/valorskins/static/css/main.11d03e2f.chunk.css",
-    "main.js": "/valorskins/static/js/main.e2b39d5a.chunk.js",
-    "main.js.map": "/valorskins/static/js/main.e2b39d5a.chunk.js.map",
+    "main.js": "/valorskins/static/js/main.d5fd3e9d.chunk.js",
+    "main.js.map": "/valorskins/static/js/main.d5fd3e9d.chunk.js.map",
     "runtime-main.js": "/valorskins/static/js/runtime-main.4a5e1531.js",
     "runtime-main.js.map": "/valorskins/static/js/runtime-main.4a5e1531.js.map",
     "static/css/2.f76e3c0a.chunk.css": "/valorskins/static/css/2.f76e3c0a.chunk.css",
     "static/js/2.159530dd.chunk.js": "/valorskins/static/js/2.159530dd.chunk.js",
     "static/js/2.159530dd.chunk.js.map": "/valorskins/static/js/2.159530dd.chunk.js.map",
     "index.html": "/valorskins/index.html",
-    "precache-manifest.e78cda3751d5117ae67517e4d53c2d2a.js": "/valorskins/precache-manifest.e78cda3751d5117ae67517e4d53c2d2a.js",
+    "precache-manifest.5fe7b1133b0581c94631ce63e62f51a4.js": "/valorskins/precache-manifest.5fe7b1133b0581c94631ce63e62f51a4.js",
     "service-worker.js": "/valorskins/service-worker.js",
     "static/css/2.f76e3c0a.chunk.css.map": "/valorskins/static/css/2.f76e3c0a.chunk.css.map",
     "static/css/main.11d03e2f.chunk.css.map": "/valorskins/static/css/main.11d03e2f.chunk.css.map",
@@ -39,6 +39,6 @@
     "static/css/2.f76e3c0a.chunk.css",
     "static/js/2.159530dd.chunk.js",
     "static/css/main.11d03e2f.chunk.css",
-    "static/js/main.e2b39d5a.chunk.js"
+    "static/js/main.d5fd3e9d.chunk.js"
   ]
 }
