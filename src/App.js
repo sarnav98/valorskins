@@ -68,7 +68,7 @@ class App extends Component {
 
     return (
       <div style={{ backgroundColor: "#141617 "}}>
-      <a href="valorskins.com">
+      <a href="/">
       <img src="https://cdn.discordapp.com/attachments/489291942958596106/728712937929179186/logov2.png" alt="Logo" className = "ValorSkins"/>
       </a>
       <Navbar>
