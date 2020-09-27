@@ -45,6 +45,9 @@ a {
   justify-content: center;
   padding: 2px;
 }
+body {
+  background-color: #141617;
+}
 
 
 
@@ -73,6 +76,13 @@ a {
 .page-title-main {
   justify-content: center;
   color: #828282;
+  position: relative;
+  text-align: center;
+}
+
+.page-title-main-2 {
+  justify-content: center;
+  color: #17e7eb;
   position: relative;
   text-align: center;
 }

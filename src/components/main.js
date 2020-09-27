@@ -38,6 +38,15 @@ import Avalanche from './avalanche';
 
 
 import Sidearm from './sidearm';
+import Smgs from './smgs';
+import Shotguns from './shotguns';
+import Rifles from './rifles';
+import Sniper from './sniper';
+import Heavy from './heavy';
+
+
+
+
 
 const Main = () => (
   <Switch>
@@ -69,18 +78,17 @@ const Main = () => (
 
     <Route path="/avalanche" component = {Avalanche} />
 
-
-
-
-
-
-
-
-
-
-
-
     <Route path="/sidearm" component = {Sidearm} />
+    <Route path="/smgs" component = {Smgs} />
+    <Route path="/shotguns" component = {Shotguns} />
+    <Route path="/rifles" component = {Rifles} />
+    <Route path="/sniper" component = {Sniper} />
+    <Route path="/heavy" component = {Heavy} />
+
+
+
+
+
 
 
   </Switch>

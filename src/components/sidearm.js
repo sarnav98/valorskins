@@ -16,7 +16,7 @@ class Sidearm extends Component {
       <div>
 
       <section className="guns-gunname">
-        <h1 className="page-title-main"> Sidearms </h1>
+        <h1 className="page-title-main-2"> Sidearms </h1>
       </section>
 
       <section style={{backgroundColor: '#0a0a0a', width: '95%', margin: 'auto'}}>
@@ -34,7 +34,7 @@ class Sidearm extends Component {
           </CardTitle>
 
             <CardActions border style={{backgroundColor: '#0c0e11'}}>
-              <Link style={{color: '#fff'}} to="/classic" className = "inspect-button" align="center"> View skins </Link>
+              <Link style={{color: '#fff'}} to="/classic" className = "inspect-button" align="center"> View weapon skins </Link>
             </CardActions>
           </Card>
 
@@ -46,7 +46,7 @@ class Sidearm extends Component {
           </CardTitle>
 
             <CardActions border style={{backgroundColor: '#0c0e11'}}>
-              <Link style={{color: '#fff'}} to="/shorty" className = "inspect-button" align="center"> View skins </Link>
+              <Link style={{color: '#fff'}} to="/shorty" className = "inspect-button" align="center"> View weapon skins </Link>
             </CardActions>
           </Card>
 
@@ -58,7 +58,7 @@ class Sidearm extends Component {
           </CardTitle>
 
             <CardActions border style={{backgroundColor: '#0c0e11'}}>
-              <Link style={{color: '#fff'}} to="/frenzy" className = "inspect-button" align="center"> View skins </Link>
+              <Link style={{color: '#fff'}} to="/frenzy" className = "inspect-button" align="center"> View weapon skins </Link>
             </CardActions>
           </Card>
 
@@ -83,7 +83,7 @@ class Sidearm extends Component {
           </CardTitle>
 
             <CardActions border style={{backgroundColor: '#0c0e11'}}>
-              <Link style={{color: '#fff'}} to="/ghost" className = "inspect-button" align="center"> View skins </Link>
+              <Link style={{color: '#fff'}} to="/ghost" className = "inspect-button" align="center"> View weapon skins </Link>
             </CardActions>
           </Card>
 
@@ -100,7 +100,7 @@ class Sidearm extends Component {
           </CardTitle>
 
             <CardActions border style={{backgroundColor: '#0c0e11'}}>
-              <Link style={{color: '#fff'}} to="/sheriff" className = "inspect-button" align="center"> View skins </Link>
+              <Link style={{color: '#fff'}} to="/sheriff" className = "inspect-button" align="center"> View weapon skins </Link>
             </CardActions>
           </Card>
 

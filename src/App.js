@@ -31,6 +31,9 @@ import {ReactComponent as KnifeIcon} from './icons/Knife.svg';
 import {ReactComponent as HomeIcon} from './artwork/192icon.png';
 
 
+import {ReactComponent as ViperIcon} from './icons/Viper.svg';
+
+
 const Ghost50 = (<GhostIcon/>);
 const Classic50 = (<ClassicIcon/>);
 const Frenzy50 = (<FrenzyIcon/>);
@@ -52,6 +55,9 @@ const Knife50 = (<KnifeIcon/>);
 
 const Home50 = (<HomeIcon/>);
 
+const Viper50 = (<ViperIcon/>);
+
+
 
 
 
@@ -62,8 +68,9 @@ class App extends Component {
 
     return (
       <div style={{ backgroundColor: "#141617 "}}>
-
+      <a href="valorskins.com">
       <img src="https://cdn.discordapp.com/attachments/489291942958596106/728712937929179186/logov2.png" alt="Logo" className = "ValorSkins"/>
+      </a>
       <Navbar>
 
       <Link to="/" className="homel">
@@ -73,29 +80,29 @@ class App extends Component {
             <DropdownMenu menuItems={sidearmList} />
           </NavItem>
 
-          <NavItem icon="SMGs" linkTo="sidearm" >
+          <NavItem icon="SMGs" linkTo="smgs" >
             <DropdownMenu menuItems={smgsList}/>
           </NavItem>
 
-          <NavItem icon="Shotguns" linkTo="sidearm">
+          <NavItem icon="Shotguns" linkTo="shotguns">
             <DropdownMenu menuItems={shotgunsList}/>
           </NavItem>
 
-          <NavItem icon="Rifles" linkTo="sidearm">
+          <NavItem icon="Rifles" linkTo="rifles">
           <DropdownMenu menuItems={riflesList}/>
 
           </NavItem>
 
-          <NavItem icon="Sniper" linkTo="sidearm">
+          <NavItem icon="Sniper" linkTo="sniper">
           <DropdownMenu menuItems={sniperList}/>
 
           </NavItem>
 
-          <NavItem icon="Heavy" linkTo="sidearm">
+          <NavItem icon="Heavy" linkTo="heavy">
           <DropdownMenu menuItems={heavyList}/>
 
           </NavItem>
-          <NavItem icon="Melee" linkTo="sidearm">
+          <NavItem icon="Melee" linkTo="knife">
           <DropdownMenu menuItems={knifeList}/>
           </NavItem>
 
@@ -114,7 +121,7 @@ class App extends Component {
             <FooterSection style={{padding: '2px', justify: 'center'}}>
                 <FooterLinkList style={{backgroundColor: '#0a0a0a', padding: '10px'}}>
                     <a >ValorSkins is a personal project. Donations are appreciated to keep upgrading the site.</a>
-                    <a href="https://paypal.me/donate2tom" style={{color: '#fff'}}>Donate</a>
+                    <a href="https://paypal.me/donate2tom" style={{color: '#17e7eb'}}>Donate</a>
 
                 </FooterLinkList>
             </FooterSection>
@@ -171,7 +178,7 @@ const shotgunsList = ["Bucky", "Judge"];
 const riflesList = ["Bulldog", "Guardian", "Phantom", "Vandal"];
 const sniperList = ["Marshal", "Operator"];
 const heavyList = ["Ares", "Odin"];
-const collectionList = [ "Avalanche", "Convex","Glitchpop", "Luxe ", "Prime ",  "Prism ", "Sovereign"]
+const collectionList = [ "Avalanche", "Convex","Glitchpop", "Luxe ", "Prime ",  "Prism ", "Sovereign", "More"];
 const knifeList = ["Knife"];
 
 let iconMap = new Map();
@@ -193,6 +200,7 @@ iconMap.set("Operator", Operator50);
 iconMap.set("Odin", Odin50);
 iconMap.set("Ares", Ares50);
 iconMap.set("Knife", Knife50);
+iconMap.set("Viper", Viper50);
 
 
 
@@ -313,7 +321,7 @@ function DropdownMenuWithSecondary(props) {
       >
 
         <div className = "menu">
-          <DropdownItem rightIcon = {iconMap.get("Breach")}>
+          <DropdownItem rightIcon = {iconMap.get("Viper")}>
             Breach
           </DropdownItem>
           <DropdownItem rightIcon = {iconMap.get("Brimstone")}>
