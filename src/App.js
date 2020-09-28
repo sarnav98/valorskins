@@ -29,7 +29,14 @@ import {ReactComponent as OdinIcon} from './icons/Odin.svg';
 import {ReactComponent as KnifeIcon} from './icons/Knife.svg';
 
 import {ReactComponent as HomeIcon} from './artwork/192icon.png';
+import {ReactComponent as Arrow1Icon} from './icons/Arrow1.svg';
 
+
+import {ReactComponent as BreachIcon} from './icons/Breach.svg';
+import {ReactComponent as BrimstoneIcon} from './icons/Brimstone.svg';
+import {ReactComponent as CypherIcon} from './icons/Cypher.svg';
+import {ReactComponent as JettIcon} from './icons/Jett.svg';
+import {ReactComponent as KilljoyIcon} from './icons/Killjoy.svg';
 
 import {ReactComponent as ViperIcon} from './icons/Viper.svg';
 
@@ -54,6 +61,14 @@ const Ares50 = (<AresIcon/>);
 const Knife50 = (<KnifeIcon/>);
 
 const Home50 = (<HomeIcon/>);
+const Arrow1 = (<Arrow1Icon/>);
+
+
+const Breach50 = (<BreachIcon/>);
+const Brimstone50 = (<BrimstoneIcon/>);
+const Cypher50 = (<CypherIcon/>);
+const Jett50 = (<JettIcon/>);
+const Killjoy50 = (<KilljoyIcon/>);
 
 const Viper50 = (<ViperIcon/>);
 
@@ -199,8 +214,16 @@ iconMap.set("Operator", Operator50);
 iconMap.set("Odin", Odin50);
 iconMap.set("Ares", Ares50);
 iconMap.set("Knife", Knife50);
+
+iconMap.set("Breach", Breach50);
+iconMap.set("Brimstone", Brimstone50);
+iconMap.set("Cypher", Cypher50);
+iconMap.set("Jett", Jett50);
+iconMap.set("Killjoy", Killjoy50);
+
 iconMap.set("Viper", Viper50);
 
+iconMap.set("Arrow1", Arrow1);
 
 
 
@@ -302,7 +325,7 @@ function DropdownMenuWithSecondary(props) {
 
         <div className = "menu">
 
-        <DropdownItem goToMenu="agents" rightIcon=">">
+        <DropdownItem goToMenu="agents" rightIcon={iconMap.get("Arrow1")}>
           Agent Weapons
         </DropdownItem>
         {listItems}
@@ -320,7 +343,7 @@ function DropdownMenuWithSecondary(props) {
       >
 
         <div className = "menu">
-          <DropdownItem rightIcon = {iconMap.get("Viper")}>
+          <DropdownItem rightIcon = {iconMap.get("Breach")}>
             Breach
           </DropdownItem>
           <DropdownItem rightIcon = {iconMap.get("Brimstone")}>
@@ -328,6 +351,33 @@ function DropdownMenuWithSecondary(props) {
           </DropdownItem>
           <DropdownItem rightIcon = {iconMap.get("Cypher")}>
             Cypher
+          </DropdownItem>
+          <DropdownItem rightIcon = {iconMap.get("Jett")}>
+            Jett
+          </DropdownItem>
+          <DropdownItem rightIcon = {iconMap.get("Killjoy")}>
+            Killjoy
+          </DropdownItem>
+          <DropdownItem rightIcon = {iconMap.get("Omen")}>
+            Omen
+          </DropdownItem>
+          <DropdownItem rightIcon = {iconMap.get("Phoenix")}>
+            Phoenix
+          </DropdownItem>
+          <DropdownItem rightIcon = {iconMap.get("Raze")}>
+            Raze
+          </DropdownItem>
+          <DropdownItem rightIcon = {iconMap.get("Reyna")}>
+            Reyna
+          </DropdownItem>
+          <DropdownItem rightIcon = {iconMap.get("Sage")}>
+            Sage
+          </DropdownItem>
+          <DropdownItem rightIcon = {iconMap.get("Sova")}>
+            Sova
+          </DropdownItem>
+          <DropdownItem rightIcon = {iconMap.get("Viper")}>
+            Viper
           </DropdownItem>
 
         <DropdownItem rightIcon="Back" goToMenu="main"/>
