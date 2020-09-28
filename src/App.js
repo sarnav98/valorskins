@@ -37,7 +37,12 @@ import {ReactComponent as BrimstoneIcon} from './icons/Brimstone.svg';
 import {ReactComponent as CypherIcon} from './icons/Cypher.svg';
 import {ReactComponent as JettIcon} from './icons/Jett.svg';
 import {ReactComponent as KilljoyIcon} from './icons/Killjoy.svg';
-
+import {ReactComponent as OmenIcon} from './icons/Omen.svg';
+import {ReactComponent as PhoenixIcon} from './icons/Phoenix.svg';
+import {ReactComponent as RazeIcon} from './icons/Raze.svg';
+import {ReactComponent as ReynaIcon} from './icons/Reyna.svg';
+import {ReactComponent as SageIcon} from './icons/Sage.svg';
+import {ReactComponent as SovaIcon} from './icons/Sova.svg';
 import {ReactComponent as ViperIcon} from './icons/Viper.svg';
 
 
@@ -69,7 +74,12 @@ const Brimstone50 = (<BrimstoneIcon/>);
 const Cypher50 = (<CypherIcon/>);
 const Jett50 = (<JettIcon/>);
 const Killjoy50 = (<KilljoyIcon/>);
-
+const Omen50 = (<OmenIcon/>);
+const Phoenix50 = (<PhoenixIcon/>);
+const Raze50 = (<RazeIcon/>);
+const Reyna50 = (<ReynaIcon/>);
+const Sage50 = (<SageIcon/>);
+const Sova50 = (<SovaIcon/>);
 const Viper50 = (<ViperIcon/>);
 
 
@@ -120,7 +130,7 @@ class App extends Component {
           <DropdownMenu menuItems={knifeList}/>
           </NavItem>
 
-          <NavItem icon="Collections & More" linkTo="sidearm">
+          <NavItem icon="Collections" linkTo="sidearm">
           <DropdownMenuWithSecondary menuItems={collectionList}/>
 
           </NavItem>
@@ -220,7 +230,12 @@ iconMap.set("Brimstone", Brimstone50);
 iconMap.set("Cypher", Cypher50);
 iconMap.set("Jett", Jett50);
 iconMap.set("Killjoy", Killjoy50);
-
+iconMap.set("Omen", Omen50);
+iconMap.set("Phoenix", Phoenix50);
+iconMap.set("Raze", Raze50);
+iconMap.set("Reyna", Reyna50);
+iconMap.set("Sage", Sage50);
+iconMap.set("Sova", Sova50);
 iconMap.set("Viper", Viper50);
 
 iconMap.set("Arrow1", Arrow1);
