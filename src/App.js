@@ -68,9 +68,8 @@ class App extends Component {
 
     return (
       <div style={{ backgroundColor: "#141617 "}}>
-      <a href="/">
+
       <img src="https://cdn.discordapp.com/attachments/489291942958596106/728712937929179186/logov2.png" alt="Logo" className = "ValorSkins"/>
-      </a>
       <Navbar>
 
       <Link to="/" className="homel">
@@ -106,7 +105,7 @@ class App extends Component {
           <DropdownMenu menuItems={knifeList}/>
           </NavItem>
 
-          <NavItem icon="Collections" linkTo="sidearm">
+          <NavItem icon="Collections & More" linkTo="sidearm">
           <DropdownMenuWithSecondary menuItems={collectionList}/>
 
           </NavItem>
@@ -178,7 +177,7 @@ const shotgunsList = ["Bucky", "Judge"];
 const riflesList = ["Bulldog", "Guardian", "Phantom", "Vandal"];
 const sniperList = ["Marshal", "Operator"];
 const heavyList = ["Ares", "Odin"];
-const collectionList = [ "Avalanche", "Convex","Glitchpop", "Luxe ", "Prime ",  "Prism ", "Sovereign", "More"];
+const collectionList = [ "Avalanche", "More"];
 const knifeList = ["Knife"];
 
 let iconMap = new Map();

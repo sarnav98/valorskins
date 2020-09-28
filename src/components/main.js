@@ -51,7 +51,7 @@ import Heavy from './heavy';
 const Main = () => (
   <Switch>
     <Route exact path="/" component = {Home} />
-    <Route path="/classic" component = {Classic} />
+    <Route exact path="/classic" component = {Classic} />
     <Route path="/shorty" component = {Shorty} />
     <Route path="/frenzy" component = {Frenzy} />
     <Route path="/ghost" component = {Ghost} />
