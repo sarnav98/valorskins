@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa967a96b6a05f47754224b39f91d65b",
+    "revision": "e27588b82b37e9d56642c2d06790fa9d",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.f76e3c0a.chunk.css"
   },
   {
-    "revision": "9e4fcbfde8abab582320",
+    "revision": "d346f846ab0a4d5c557e",
     "url": "/static/css/main.8d283054.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.5231d675.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9e4fcbfde8abab582320",
-    "url": "/static/js/main.f1ae4f6f.chunk.js"
+    "revision": "d346f846ab0a4d5c557e",
+    "url": "/static/js/main.9c5ab603.chunk.js"
   },
   {
     "revision": "93217ac5235a342778d5",
@@ -36,6 +36,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Ares.4ddfa972.svg"
   },
   {
+    "revision": "6f262d90b16e5b99c62b67fd2f30fc3c",
+    "url": "/static/media/Arrow1.6f262d90.svg"
+  },
+  {
+    "revision": "5b846005140d7ea55f533ae207173449",
+    "url": "/static/media/Breach.5b846005.svg"
+  },
+  {
+    "revision": "7f40ce5d99616f3b02500e70062deb57",
+    "url": "/static/media/Brimstone.7f40ce5d.svg"
+  },
+  {
     "revision": "fa6187a4a5cadcc85ed1bd64d8101687",
     "url": "/static/media/Bucky.fa6187a4.svg"
   },
@@ -46,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cb46a0040ff5735e48828b99b029cbd2",
     "url": "/static/media/Classic.cb46a004.svg"
+  },
+  {
+    "revision": "81139c179450704c2eed3b451b92517f",
+    "url": "/static/media/Cypher.81139c17.svg"
   },
   {
     "revision": "caff862d1ecf9195d6ae20ac3d859d6f",
@@ -60,8 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Guardian.c6cbee6a.svg"
   },
   {
+    "revision": "a438e69c85afb3622bc7de023347c53c",
+    "url": "/static/media/Jett.a438e69c.svg"
+  },
+  {
     "revision": "88695a409473f331d1e380442eca8cb6",
     "url": "/static/media/Judge.88695a40.svg"
+  },
+  {
+    "revision": "97f5d86c994154d0097672f8a6aa2fad",
+    "url": "/static/media/Killjoy.97f5d86c.svg"
   },
   {
     "revision": "1845527164a520344d12d18c77c4d850",
