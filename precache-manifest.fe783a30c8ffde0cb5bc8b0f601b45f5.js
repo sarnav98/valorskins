@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e27588b82b37e9d56642c2d06790fa9d",
+    "revision": "377bf7fbdc61d9fca4f9eaa0c9ead6ff",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.f76e3c0a.chunk.css"
   },
   {
-    "revision": "d346f846ab0a4d5c557e",
+    "revision": "f9b47f8bd2ddb62459e6",
     "url": "/static/css/main.8d283054.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.5231d675.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d346f846ab0a4d5c557e",
-    "url": "/static/js/main.9c5ab603.chunk.js"
+    "revision": "f9b47f8bd2ddb62459e6",
+    "url": "/static/js/main.eb2f27ec.chunk.js"
   },
   {
     "revision": "93217ac5235a342778d5",
@@ -100,6 +100,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Odin.d62ad3ba.svg"
   },
   {
+    "revision": "1312faba3f0219dfbf6715b06d73748e",
+    "url": "/static/media/Omen.1312faba.svg"
+  },
+  {
     "revision": "9dcee191ce1840b9090412d71ef73392",
     "url": "/static/media/Operator.9dcee191.svg"
   },
@@ -108,12 +112,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Phantom.0fabead9.svg"
   },
   {
+    "revision": "45acffa54e31b856bbd43ab25b76a1e9",
+    "url": "/static/media/Phoenix.45acffa5.svg"
+  },
+  {
+    "revision": "dc7c643eba32b3b1f71056c6b5153ebe",
+    "url": "/static/media/Raze.dc7c643e.svg"
+  },
+  {
+    "revision": "0f952b547f5af2df69903dc92b37f8a5",
+    "url": "/static/media/Reyna.0f952b54.svg"
+  },
+  {
+    "revision": "8c5b3224327182aba5acddf62fb47a73",
+    "url": "/static/media/Sage.8c5b3224.svg"
+  },
+  {
     "revision": "4f7828e54a0575bfd8d37595336be121",
     "url": "/static/media/Sheriff.4f7828e5.svg"
   },
   {
     "revision": "e351fd53183c811baad8c5946b6be86e",
     "url": "/static/media/Shorty.e351fd53.svg"
+  },
+  {
+    "revision": "6a51451936f64e9fbccfc17df0ade1b4",
+    "url": "/static/media/Sova.6a514519.svg"
   },
   {
     "revision": "db80d6912326f1e67a037bb0cb445bb3",
