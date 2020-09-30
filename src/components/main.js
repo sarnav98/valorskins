@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {Switch, Route} from 'react-router-dom';
+
 import LandingPage from './landingpage'
 import Home from './home';
 
@@ -45,6 +46,7 @@ import Sniper from './sniper';
 import Heavy from './heavy';
 
 
+import ScrollToTop from './ScrollToTop';
 
 
 
@@ -92,7 +94,6 @@ const Main = () => (
 
 
   </Switch>
-
 )
 
 

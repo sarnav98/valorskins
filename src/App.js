@@ -5,7 +5,9 @@ import {Layout, Header, HeaderRow, HeaderTabs, Tab, Drawer, Content, Footer, Foo
 import {CSSTransition} from 'react-transition-group';
 
 import {Link} from 'react-router-dom';
-
+/* Routes */
+import ScrollToTop from './components/ScrollToTop';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Main from './components/main';
 /* Import statements for icons */
@@ -44,6 +46,14 @@ import {ReactComponent as ReynaIcon} from './icons/Reyna.svg';
 import {ReactComponent as SageIcon} from './icons/Sage.svg';
 import {ReactComponent as SovaIcon} from './icons/Sova.svg';
 import {ReactComponent as ViperIcon} from './icons/Viper.svg';
+
+
+
+import LandingPage from './components/landingpage'
+import Home from './components/home';
+
+
+import Classic from './components/classic';
 
 
 const Ghost50 = (<GhostIcon/>);
@@ -86,14 +96,15 @@ const Viper50 = (<ViperIcon/>);
 
 
 
-
 class App extends Component {
 
   render() {
 
     return (
-      <div style={{ backgroundColor: "#141617 "}}>
 
+      <div style={{ backgroundColor: "#141617 "}}>
+      <Router>
+      <ScrollToTop/>
       <img src="https://cdn.discordapp.com/attachments/489291942958596106/728712937929179186/logov2.png" alt="Logo" className = "ValorSkins"/>
       <Navbar>
 
@@ -141,6 +152,7 @@ class App extends Component {
 
       <Main/>
 
+
             <Footer className="foot"  style={{backgroundColor: '#141617'}}>
             <FooterSection style={{padding: '2px', justify: 'center'}}>
                 <FooterLinkList style={{backgroundColor: '#0a0a0a', padding: '10px'}}>
@@ -152,6 +164,7 @@ class App extends Component {
 
             </Footer>
 
+</Router>
       </div>
 
 
