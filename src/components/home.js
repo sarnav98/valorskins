@@ -77,9 +77,18 @@ class Home extends Component {
 
       <section className="guns-gunname" style={{backgroundColor: '#0a0a0a'}} >
         <h1 className="home-page-header"> Site News </h1>
-        <p classname="home-page-news">
-        Version 1.0 : ValorSkins is officially live!
-        </p>
+
+      </section>
+      <section className="home-page-news">
+      <h5 className="home-page-header"> Version 1.0 : ValorSkins is officially live!</h5>
+      </section>
+      <section className="sub-section">
+
+      <p> (10/01/20)
+      <br/>◘ After starting this solo project in May, I'm glad to share it with everyone even though it is still a WIP
+      <br/> ◘ Currently you can view every skin in the game, but not inspect (a feature that I'm working on with priority but unsure of when it will release)
+      <br/> ◘ Features I plan for v1.1 include a redesign of the collections tab and a suggestions box
+      </p>
       </section>
 
       <section className="guns-gunname" style={{backgroundColor: '#0a0a0a'}} >
@@ -97,7 +106,7 @@ class Home extends Component {
                     {/* Sidearm */}
                     <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-                    <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743580596709621790/sidearms.png) center'}}>
+                    <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Other/sidearms.png) center'}}>
                      Sidearms
                     </CardTitle>
 
@@ -115,7 +124,7 @@ class Home extends Component {
                     {/* Smgs */}
                     <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-                    <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743645054396137583/smg.png) center'}}>
+                    <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Other/smg.png) center'}}>
                      SMGs
                     </CardTitle>
 
@@ -133,7 +142,7 @@ class Home extends Component {
                     {/* Shotguns */}
                     <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
-                    <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743580595292209352/shotguns.png) center'}}>
+                    <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Other/shotguns.png) center'}}>
                      Shotguns
                     </CardTitle>
 
@@ -141,6 +150,122 @@ class Home extends Component {
 
                       <CardActions border style={{backgroundColor: '#0c0e11'}}>
                         <Link className = "inspect-button" align="center" to="/shotguns"> View All </Link>
+                      </CardActions>
+
+                      <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+                    </Card>
+
+          </div>
+          </Cell>
+
+        </Grid>
+
+        <Grid>
+
+          <Cell col={12}>
+
+          <div className="guns-grid">
+
+
+                    {/* Rifles */}
+                    <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+                    <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Other/rifles.png) center'}}>
+                     Rifles
+                    </CardTitle>
+
+
+
+                      <CardActions border style={{backgroundColor: '#0c0e11'}}>
+                        <Link className = "inspect-button" align="center" to="/rifles"> View All </Link>
+                      </CardActions>
+
+                      <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+                    </Card>
+
+                    {/* Sniper */}
+                    <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+                    <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Other/snipers.png) center'}}>
+                     Sniper
+                    </CardTitle>
+
+
+
+                      <CardActions border style={{backgroundColor: '#0c0e11'}}>
+                        <Link className = "inspect-button" align="center" to="/sniper"> View All </Link>
+                      </CardActions>
+
+                      <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+                    </Card>
+
+                    {/* Heavy */}
+                    <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+                    <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Other/heavy.png) center'}}>
+                     Heavy
+                    </CardTitle>
+
+
+
+                      <CardActions border style={{backgroundColor: '#0c0e11'}}>
+                        <Link className = "inspect-button" align="center" to="/heavy"> View All </Link>
+                      </CardActions>
+
+                      <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+                    </Card>
+
+          </div>
+          </Cell>
+
+        </Grid>
+
+        <Grid>
+
+          <Cell col={12}>
+
+          <div className="guns-grid">
+
+
+                    {/* Melee */}
+                    <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+                    <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Other/knives.png) center'}}>
+                     Melee
+                    </CardTitle>
+
+
+
+                      <CardActions border style={{backgroundColor: '#0c0e11'}}>
+                        <Link className = "inspect-button" align="center" to="/knife"> View All </Link>
+                      </CardActions>
+
+                      <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+                    </Card>
+
+
+
+                    {/* Collections */}
+                    <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+                    <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Other/collections.png) center'}}>
+                     Collections
+                    </CardTitle>
+
+
+
+                      <CardActions border style={{backgroundColor: '#0c0e11'}}>
+                        <Link className = "inspect-button" align="center" to="/collections"> View All </Link>
                       </CardActions>
 
                       <CardActions border style={{backgroundColor: '#00f6ff'}}/>

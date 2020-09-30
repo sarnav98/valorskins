@@ -358,11 +358,12 @@ function DropdownMenuWithSecondary(props) {
       >
 
         <div className = "menu">
+        <DropdownItem rightIcon="Back" goToMenu="main"/>
           <DropdownItem rightIcon = {iconMap.get("Breach")}>
             Breach
           </DropdownItem>
           <DropdownItem rightIcon = {iconMap.get("Brimstone")}>
-            Breach
+            Brimstone
           </DropdownItem>
           <DropdownItem rightIcon = {iconMap.get("Cypher")}>
             Cypher
@@ -395,7 +396,7 @@ function DropdownMenuWithSecondary(props) {
             Viper
           </DropdownItem>
 
-        <DropdownItem rightIcon="Back" goToMenu="main"/>
+
         </div>
       </CSSTransition>
 

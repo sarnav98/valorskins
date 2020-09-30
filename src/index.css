@@ -95,6 +95,24 @@ body {
   margin-left: 38px;
 }
 
+home-page-news {
+  justify-content: center;
+  color: #444;
+  position: relative;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 38px;
+}
+
+.sub-section {
+  justify-content: center;
+  color: #828282;
+  position: relative;
+  text-align: left;
+  font-size: 14px;
+  left: 60px;
+}
+
 .foot {
   color: #fff;
   height: 100px;
