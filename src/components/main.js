@@ -53,7 +53,7 @@ import ScrollToTop from './ScrollToTop';
 const Main = () => (
   <Switch>
     <Route exact path="/" component = {Home} />
-    <Route path="/classic" component = {Classic} />
+    <Route path={process.env.PUBLIC_URL + '/classic'} component = {Classic} />
     <Route path="/shorty" component = {Shorty} />
     <Route path="/frenzy" component = {Frenzy} />
     <Route path="/ghost" component = {Ghost} />
