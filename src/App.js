@@ -7,7 +7,7 @@ import {CSSTransition} from 'react-transition-group';
 import {Link} from 'react-router-dom';
 /* Routes */
 import ScrollToTop from './components/ScrollToTop';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Main from './components/main';
 /* Import statements for icons */
