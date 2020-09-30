@@ -86,7 +86,8 @@ class Home extends Component {
 
       <p> (10/01/20)
       <br/>◘ After starting this solo project in May, I'm glad to share it with everyone even though it is still a WIP
-      <br/> ◘ Currently you can view every skin in the game, but not inspect (a feature that I'm working on with priority but unsure of when it will release)
+      <br/> ◘ Currently this site does not have a responsive design (for mobile and other devices) but this will change
+      <br/> ◘ You can view every skin in the game, but not inspect (a feature that I'm working on with priority but unsure of when it will release)
       <br/> ◘ Features I plan for v1.1 include a redesign of the collections tab and a suggestions box
       </p>
       </section>

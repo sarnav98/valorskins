@@ -247,7 +247,6 @@ class Bulldog extends Component {
       </section>
 
       <br/>
-
       </div>
     )
   }
