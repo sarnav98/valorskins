@@ -161,15 +161,17 @@ class App extends Component {
 
                 </FooterLinkList>
 
-                <br/>
-                <FooterLinkList style={{backgroundColor: '#0a0a0a', padding: '10px'}}>
+                <br/> <br/>
+                <FooterLinkList style={{ padding: '10px'}}>
 
-                <p> ValorSkins isn't endorsed by Riot Games and doesn't reflect the views or
+                <a  style={{color: '#0a0a0a'}}> ValorSkins isn't endorsed by Riot Games and doesn't reflect the views or
                 opinions of Riot Games or anyone officially involved in
-                producing or managing Riot Games properties.
+                producing or managing Riot Games properties.</a>
+                <a style={{color: '#0a0a0a'}}>
                  Riot Games, and all associated properties are trademarks or
-                 registered trademarks of Riot Games, Inc.</p>
-                 </FooterLinkList>
+                 registered trademarks of Riot Games, Inc.
+                  </a>
+                </FooterLinkList>
 
             </FooterSection>
 
