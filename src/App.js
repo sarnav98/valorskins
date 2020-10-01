@@ -31,7 +31,7 @@ import {ReactComponent as OdinIcon} from './icons/Odin.svg';
 import {ReactComponent as KnifeIcon} from './icons/Knife.svg';
 
 import {ReactComponent as HomeIcon} from './artwork/192icon.png';
-import {ReactComponent as Arrow1Icon} from './icons/Arrow1.svg';
+import {ReactComponent as Arrow1Icon} from './icons/rightarrow.svg';
 
 
 import {ReactComponent as BreachIcon} from './icons/Breach.svg';
