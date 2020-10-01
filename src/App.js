@@ -4,7 +4,6 @@ import './App.css';
 import {Layout, Header, HeaderRow, HeaderTabs, Tab, Drawer, Content, Footer, FooterSection, FooterLinkList} from 'react-mdl';
 import {CSSTransition} from 'react-transition-group';
 
-import ReactGA from 'react-ga';
 
 import {Link} from 'react-router-dom';
 /* Routes */
@@ -96,12 +95,6 @@ const Sage50 = (<SageIcon/>);
 const Sova50 = (<SovaIcon/>);
 const Viper50 = (<ViperIcon/>);
 
-
-
-function initializeReactGA() {
-  ReactGA.initialize('UA-179430537-1');
-  ReactGA.pageview('/homepage');
-}
 
 
 class App extends Component {
