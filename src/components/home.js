@@ -40,15 +40,11 @@ class Home extends Component {
 
           {/* G.U.N Collection */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
-
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743643871413796894/glitchpop.png) center'}}>
+          <Link to="/gun">
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Collections/gun-display.png) center'}}>
            G.U.N Collection
           </CardTitle>
-
-
-
-
-
+          </Link>
           </Card>
 
           {/* Wunderkind */}

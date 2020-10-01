@@ -230,7 +230,7 @@ const shotgunsList = ["Bucky", "Judge"];
 const riflesList = ["Bulldog", "Guardian", "Phantom", "Vandal"];
 const sniperList = ["Marshal", "Operator"];
 const heavyList = ["Ares", "Odin"];
-const collectionList = [ "Glitchpop", "G.U.N", "Spline"];
+const collectionList = [ "Glitchpop", "GUN", "Spline"];
 const knifeList = ["Knife"];
 
 let iconMap = new Map();

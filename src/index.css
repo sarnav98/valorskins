@@ -259,6 +259,19 @@ home-page-news {
   margin-top: 20px;
 }
 
+.collection-details {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+  padding: 5px;
+
+}
+
+.collection-div {
+  margin-left: 20px;
+}
+
 .HomeIcon {
   height: 32px;
   align-self: center;

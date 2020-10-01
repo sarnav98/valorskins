@@ -17,6 +17,13 @@ class Collections extends Component {
 
       <section className="guns-gunname">
         <h1 className="page-title-main-2"> Collections </h1>
+        <h4 className="collection-details">
+
+        <div>
+        <span style={{color: '#828282'}}> Adding more collections with V1.1 </span>
+
+         </div>
+         </h4>
       </section>
 
       <section style={{backgroundColor: '#0a0a0a', width: '95%', margin: 'auto'}}>
@@ -26,12 +33,34 @@ class Collections extends Component {
 
           <div className="guns-grid">
 
-
-
-          { /* AD */ }
-          <Card shadow = {0} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Other/ad.png) center'}}>
+          {/* Glitchpop Collection */}
+          <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+          <Link to="/glitchpop">
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Collections/glitchpop-display.png) center'}}>
+           Glitchpop
+          </CardTitle>
+          </Link>
           </Card>
 
+
+
+          {/* G.U.N Collection */}
+          <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+          <Link to="/gun">
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Collections/gun-display.png) center'}}>
+           G.U.N
+          </CardTitle>
+          </Link>
+          </Card>
+
+          {/* Spline Collection */}
+          <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+          <Link to="/spline">
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Collections/spline-display.png) center'}}>
+           Spline
+          </CardTitle>
+          </Link>
+          </Card>
 
 
 

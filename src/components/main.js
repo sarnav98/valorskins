@@ -33,7 +33,9 @@ import Melee from './melee';
 
 /* Collections */
 import Avalanche from './avalanche';
-
+import Gun from './gun';
+import Glitchpop from './glitchpop';
+import Spline from './spline';
 
 import Collections from './collections';
 
@@ -96,6 +98,10 @@ const Main = () => (
     <Route path="/knife" component = {Melee} />
 
     <Route path="/avalanche" component = {Avalanche} />
+    <Route path="/gun" component = {Gun} />
+    <Route path="/glitchpop" component = {Glitchpop} />
+    <Route path="/spline" component = {Spline} />
+
     <Route path="/collections" component = {Collections} />
 
 
