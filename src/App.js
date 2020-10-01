@@ -4,7 +4,7 @@ import './App.css';
 import {Layout, Header, HeaderRow, HeaderTabs, Tab, Drawer, Content, Footer, FooterSection, FooterLinkList} from 'react-mdl';
 import {CSSTransition} from 'react-transition-group';
 
-
+import ReactGa from 'react-ga';
 import {Link} from 'react-router-dom';
 /* Routes */
 import ScrollToTop from './components/ScrollToTop';
@@ -100,6 +100,12 @@ const Viper50 = (<ViperIcon/>);
 class App extends Component {
 
   render() {
+
+    useEffect( () => {
+      ReactGa.initialize('UA-179430537-1')
+      ReactGa.pageview('/')
+    }, []);
+
 
     return (
 
