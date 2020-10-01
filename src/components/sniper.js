@@ -38,8 +38,9 @@ class Sniper extends Component {
             </CardActions>
           </Card>
 
-          { /* AD */ }
+          { /* Kahzek AD */ }
           <Card shadow = {0} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Other/kahzekad.png) center'}}>
+            <Link to="https://distrokid.com/hyperfollow/kahzek/phased-out"/>
           </Card>
 
 
