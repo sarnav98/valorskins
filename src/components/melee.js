@@ -26,6 +26,40 @@ class Melee extends Component {
 
           <div className="guns-grid">
 
+          {/* Ego Knife */}
+          <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/egoknife-display.png) center'}}>
+           Ego Knife
+          </CardTitle>
+
+            <CardText style={{color: '#fff'}}>
+
+              <span style={{color: '#828282'}}> Release: </span>
+              ACT 2
+              <div>
+                  <span style={{color: '#828282'}}> Available in store: </span>
+                  YES
+              </div>
+              <div>
+                  <span style={{color: '#828282'}}> Unlock: </span>
+                  3550
+                  <img src="https://vignette.wikia.nocookie.net/valorant/images/9/9d/Valorant_Points.png/revision/latest/scale-to-width-down/22?cb=20200408014952" className = "VP"/>
+              </div>
+
+            </CardText>
+
+
+
+            <CardActions border style={{backgroundColor: '#0c0e11'}}>
+              <Link className = "inspect-button" align="center"> Inspect (Coming Soon) </Link>
+            </CardActions>
+
+            <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+          </Card>
+
           {/* Enderflame Dagger */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
@@ -93,6 +127,53 @@ class Melee extends Component {
 
           </Card>
 
+
+
+
+          </div>
+          </Cell>
+
+        </Grid>
+
+        <Grid>
+
+          <Cell col={12}>
+
+          <div className="guns-grid">
+
+          {/* GUN Baton */}
+          <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/gunbaton-display.png) center'}}>
+           G.U.N Baton
+          </CardTitle>
+
+            <CardText style={{color: '#fff'}}>
+
+              <span style={{color: '#828282'}}> Release: </span>
+              ACT 2
+              <div>
+                  <span style={{color: '#828282'}}> Available in store: </span>
+                  YES
+              </div>
+              <div>
+                  <span style={{color: '#828282'}}> Unlock: </span>
+                  3550
+                  <img src="https://vignette.wikia.nocookie.net/valorant/images/9/9d/Valorant_Points.png/revision/latest/scale-to-width-down/22?cb=20200408014952" className = "VP"/>
+              </div>
+            </CardText>
+
+
+
+            <CardActions border style={{backgroundColor: '#0c0e11'}}>
+              <Link className = "inspect-button" align="center"> Inspect (Coming Soon) </Link>
+            </CardActions>
+
+            <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+          </Card>
+
           {/* Hivemind Sword */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
@@ -124,18 +205,6 @@ class Melee extends Component {
 
 
           </Card>
-
-
-          </div>
-          </Cell>
-
-        </Grid>
-
-        <Grid>
-
-          <Cell col={12}>
-
-          <div className="guns-grid">
 
           {/* Kingdom Knife */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
@@ -169,6 +238,20 @@ class Melee extends Component {
 
           </Card>
 
+
+
+
+          </div>
+          </Cell>
+
+        </Grid>
+
+        <Grid>
+
+          <Cell col={12}>
+
+          <div className="guns-grid">
+
           {/* Luxe Knife */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
@@ -180,6 +263,39 @@ class Melee extends Component {
 
               <span style={{color: '#828282'}}> Release: </span>
               ACT 1
+              <div>
+                  <span style={{color: '#828282'}}> Available in store: </span>
+                  YES
+              </div>
+              <div>
+                  <span style={{color: '#828282'}}> Unlock: </span>
+                  1750
+                  <img src="https://vignette.wikia.nocookie.net/valorant/images/9/9d/Valorant_Points.png/revision/latest/scale-to-width-down/22?cb=20200408014952" className = "VP"/>
+              </div>
+            </CardText>
+
+
+
+            <CardActions border style={{backgroundColor: '#0c0e11'}}>
+              <Link className = "inspect-button" align="center"> Inspect (Coming Soon) </Link>
+            </CardActions>
+
+            <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+          </Card>
+
+          {/* Nebula Knife */}
+          <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+          <CardTitle style={{color: '#fe0468', height: '200px',  background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/nebulaknife-display.png) center'}}>
+          Nebula Knife
+          </CardTitle>
+
+            <CardText style={{color: '#fff'}}>
+
+              <span style={{color: '#828282'}}> Release: </span>
+              ACT 2
               <div>
                   <span style={{color: '#828282'}}> Available in store: </span>
                   YES
@@ -236,6 +352,8 @@ class Melee extends Component {
           </Card>
 
 
+
+
           </div>
           </Cell>
 
@@ -246,6 +364,7 @@ class Melee extends Component {
           <Cell col={12}>
 
           <div className="guns-grid">
+
 
           {/* Prime Axe */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
@@ -313,6 +432,53 @@ class Melee extends Component {
 
           </Card>
 
+          {/* Smite Knife */}
+          <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/smiteknife-display.png) center'}}>
+           Smite Knife
+          </CardTitle>
+
+            <CardText style={{color: '#fff'}}>
+
+              <span style={{color: '#828282'}}> Release: </span>
+              ACT 2
+              <div>
+                  <span style={{color: '#828282'}}> Available in store: </span>
+                  YES
+              </div>
+              <div>
+                  <span style={{color: '#828282'}}> Unlock: </span>
+                  1750
+                  <img src="https://vignette.wikia.nocookie.net/valorant/images/9/9d/Valorant_Points.png/revision/latest/scale-to-width-down/22?cb=20200408014952" className = "VP"/>
+              </div>
+            </CardText>
+
+
+
+            <CardActions border style={{backgroundColor: '#0c0e11'}}>
+              <Link className = "inspect-button" align="center"> Inspect (Coming Soon) </Link>
+            </CardActions>
+
+            <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+          </Card>
+
+
+
+          </div>
+          </Cell>
+
+        </Grid>
+
+        <Grid>
+
+          <Cell col={12}>
+
+          <div className="guns-grid">
+
+
           {/* Sovereign Sword */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
@@ -345,6 +511,40 @@ class Melee extends Component {
 
 
           </Card>
+
+          {/* Spline Dagger */}
+          <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/splinedagger-display.png) center'}}>
+           Spline Dagger
+          </CardTitle>
+
+            <CardText style={{color: '#fff'}}>
+
+              <span style={{color: '#828282'}}> Release: </span>
+              ACT 2
+              <div>
+                  <span style={{color: '#828282'}}> Available in store: </span>
+                  YES
+              </div>
+              <div>
+                  <span style={{color: '#828282'}}> Unlock: </span>
+                  3550
+                  <img src="https://vignette.wikia.nocookie.net/valorant/images/9/9d/Valorant_Points.png/revision/latest/scale-to-width-down/22?cb=20200408014952" className = "VP"/>
+              </div>
+            </CardText>
+
+
+
+            <CardActions border style={{backgroundColor: '#0c0e11'}}>
+              <Link className = "inspect-button" align="center"> Inspect (Coming Soon) </Link>
+            </CardActions>
+
+            <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+          </Card>
+
 
 
           </div>
