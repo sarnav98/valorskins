@@ -29,12 +29,13 @@ class Home extends Component {
           {/* Hivemind Sword */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
+<Link to="/knife">
           <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743626211464314950/hivemindsword-display.png) center'}}>
-           <Link to="/knife"> Hivemind Sword </Link>
+            Hivemind Sword
 
 
           </CardTitle>
-
+</Link>
           </Card>
 
           {/* Glitchpop Collection */}
