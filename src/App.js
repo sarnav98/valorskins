@@ -101,10 +101,7 @@ class App extends Component {
 
   render() {
 
-    useEffect( () => {
-      ReactGa.initialize('UA-179430537-1')
-      ReactGa.pageview('/')
-    }, []);
+
 
 
     return (
