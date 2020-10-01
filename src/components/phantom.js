@@ -137,6 +137,39 @@ class Phantom extends Component {
 
           <div className="guns-grid">
 
+          {/* Nebula */}
+          <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Phantom/nebula-display.png) center'}}>
+           Nebula
+          </CardTitle>
+
+            <CardText style={{color: '#fff'}}>
+
+              <span style={{color: '#828282'}}> Release: </span>
+              ACT 2
+              <div>
+                  <span style={{color: '#828282'}}> Available in store: </span>
+                  YES
+              </div>
+              <div>
+                  <span style={{color: '#828282'}}> Unlock: </span>
+                  1775
+                  <img src="https://vignette.wikia.nocookie.net/valorant/images/9/9d/Valorant_Points.png/revision/latest/scale-to-width-down/22?cb=20200408014952" className = "VP"/>
+              </div>
+            </CardText>
+
+
+
+            <CardActions border style={{backgroundColor: '#0c0e11'}}>
+              <Link className = "inspect-button" align="center"> Inspect (Coming Soon) </Link>
+            </CardActions>
+
+            <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+          </Card>
+
           {/* Oni */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
@@ -203,6 +236,22 @@ class Phantom extends Component {
 
           </Card>
 
+
+
+
+          </div>
+          </Cell>
+
+        </Grid>
+
+        <Grid>
+
+          <Cell col={12}>
+
+          <div className="guns-grid">
+
+
+
           {/* Rush */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
@@ -221,6 +270,72 @@ class Phantom extends Component {
               <div>
                   <span style={{color: '#828282'}}> Unlock: </span>
                   875
+                  <img src="https://vignette.wikia.nocookie.net/valorant/images/9/9d/Valorant_Points.png/revision/latest/scale-to-width-down/22?cb=20200408014952" className = "VP"/>
+              </div>
+            </CardText>
+
+
+
+            <CardActions border style={{backgroundColor: '#0c0e11'}}>
+              <Link className = "inspect-button" align="center"> Inspect (Coming Soon) </Link>
+            </CardActions>
+
+            <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+          </Card>
+
+          {/* Smite */}
+          <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Phantom/smite-display.png) center'}}>
+           Smite
+          </CardTitle>
+
+            <CardText style={{color: '#fff'}}>
+
+              <span style={{color: '#828282'}}> Release: </span>
+              ACT 2
+              <div>
+                  <span style={{color: '#828282'}}> Available in store: </span>
+                  YES
+              </div>
+              <div>
+                  <span style={{color: '#828282'}}> Unlock: </span>
+                  875
+                  <img src="https://vignette.wikia.nocookie.net/valorant/images/9/9d/Valorant_Points.png/revision/latest/scale-to-width-down/22?cb=20200408014952" className = "VP"/>
+              </div>
+            </CardText>
+
+
+
+            <CardActions border style={{backgroundColor: '#0c0e11'}}>
+              <Link className = "inspect-button" align="center"> Inspect (Coming Soon) </Link>
+            </CardActions>
+
+            <CardActions border style={{backgroundColor: '#00f6ff'}}/>
+
+
+          </Card>
+
+          {/* Spline */}
+          <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
+
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Phantom/spline-display.png) center'}}>
+           Spline
+          </CardTitle>
+
+            <CardText style={{color: '#fff'}}>
+
+              <span style={{color: '#828282'}}> Release: </span>
+              ACT 2
+              <div>
+                  <span style={{color: '#828282'}}> Available in store: </span>
+                  YES
+              </div>
+              <div>
+                  <span style={{color: '#828282'}}> Unlock: </span>
+                  1775
                   <img src="https://vignette.wikia.nocookie.net/valorant/images/9/9d/Valorant_Points.png/revision/latest/scale-to-width-down/22?cb=20200408014952" className = "VP"/>
               </div>
             </CardText>

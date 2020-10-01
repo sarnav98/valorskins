@@ -35,7 +35,7 @@ import Melee from './melee';
 import Avalanche from './avalanche';
 
 
-
+import Collections from './collections';
 
 /* Weapon Categories */
 import Sidearm from './sidearm';
@@ -96,6 +96,7 @@ const Main = () => (
     <Route path="/knife" component = {Melee} />
 
     <Route path="/avalanche" component = {Avalanche} />
+    <Route path="/collections" component = {Collections} />
 
 
     <Route path="/breach" component = {Breach} />

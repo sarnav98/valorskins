@@ -143,7 +143,7 @@ class App extends Component {
           <DropdownMenu menuItems={knifeList}/>
           </NavItem>
 
-          <NavItem icon="Collections" linkTo="sidearm">
+          <NavItem icon="Collections">
           <DropdownMenuWithSecondary menuItems={collectionList}/>
 
           </NavItem>
@@ -230,7 +230,7 @@ const shotgunsList = ["Bucky", "Judge"];
 const riflesList = ["Bulldog", "Guardian", "Phantom", "Vandal"];
 const sniperList = ["Marshal", "Operator"];
 const heavyList = ["Ares", "Odin"];
-const collectionList = [ "Avalanche", "More"];
+const collectionList = [ "Glitchpop", "G.U.N", "Spline"];
 const knifeList = ["Knife"];
 
 let iconMap = new Map();
@@ -384,6 +384,7 @@ function DropdownMenuWithSecondary(props) {
           Agent Weapons
         </DropdownItem2>
         {listItems}
+        <DropdownItem linkTo="collections"> More </DropdownItem>
 
 
         </div>
