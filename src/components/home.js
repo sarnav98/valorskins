@@ -30,7 +30,7 @@ class Home extends Component {
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
           <Link to="/knife">
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743626211464314950/hivemindsword-display.png) center'}}>
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Melee/hivemindsword-display.png) center'}}>
             Hivemind Sword
 
 
@@ -38,11 +38,11 @@ class Home extends Component {
           </Link>
           </Card>
 
-          {/* Glitchpop Collection */}
+          {/* G.U.N Collection */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
 
           <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/743643871413796894/glitchpop.png) center'}}>
-           Glitchpop Collection
+           G.U.N Collection
           </CardTitle>
 
 
@@ -53,14 +53,11 @@ class Home extends Component {
 
           {/* Wunderkind */}
           <Card shadow = {5} style= {{minWidth: '400px', maxWidth: '400px' ,margin: 'auto', backgroundColor: '#141617'}}>
-
-          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://cdn.discordapp.com/attachments/489291942958596106/741360583009370182/wunderkind-display.png) center'}}>
+          <Link to="/killjoy">
+          <CardTitle style={{color: '#fe0468', height: '200px', background: 'url(https://raw.githubusercontent.com/thulka2/valorskins/master/src/displays/Shorty/wunderkind-display.png) center'}}>
            Wunderkind Shorty
           </CardTitle>
-
-
-
-
+          </Link>
           </Card>
 
 
@@ -86,10 +83,10 @@ class Home extends Component {
       <section className="sub-section">
 
       <p> (10/01/20)
-      <br/>◘ After starting this solo project in May, I'm glad to share it with everyone even though it is still a WIP
-      <br/> ◘ Currently this site does not have a responsive design (for mobile and other devices) but this will change
-      <br/> ◘ You can view every skin in the game, but not inspect (a feature that I'm working on with priority but unsure of when it will release)
-      <br/> ◘ Features I plan for v1.1 include a redesign of the collections tab and a suggestions box
+      <br/> ○ After starting this solo project in May, I'm glad to share it with everyone even though it is still a WIP
+      <br/> ○ Currently this site does not have a responsive design (for mobile and other devices) but this will change
+      <br/> ○ You can view every skin in the game, but not inspect (a feature that I'm working on with priority but unsure of when it will release)
+      <br/> ○ Features I plan for v1.1 include a redesign of the collections tab, adding all the collections and adding a suggestion/contact box
       </p>
       </section>
 

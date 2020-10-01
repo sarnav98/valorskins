@@ -31,19 +31,36 @@ import Odin from './odin';
 
 import Melee from './melee';
 
-
+/* Collections */
 import Avalanche from './avalanche';
 
 
 
 
-
+/* Weapon Categories */
 import Sidearm from './sidearm';
 import Smgs from './smgs';
 import Shotguns from './shotguns';
 import Rifles from './rifles';
 import Sniper from './sniper';
 import Heavy from './heavy';
+
+
+/* Agents */
+import Breach from './breach';
+import Brimstone from './brimstone';
+import Cypher from './cypher';
+import Jett from './jett';
+import Killjoy from './killjoy';
+import Omen from './omen';
+import Phoenix from './phoenix';
+import Raze from './raze';
+import Reyna from './reyna';
+import Sage from './sage';
+import Sova from './sova';
+import Viper from './viper';
+
+
 
 
 import ScrollToTop from './ScrollToTop';
@@ -53,7 +70,7 @@ import ScrollToTop from './ScrollToTop';
 const Main = () => (
   <Switch>
     <Route exact path="/" component = {Home} />
-    <Route path={process.env.PUBLIC_URL + '/classic'} component = {Classic} />
+    <Route path="/classic" component = {Classic} />
     <Route path="/shorty" component = {Shorty} />
     <Route path="/frenzy" component = {Frenzy} />
     <Route path="/ghost" component = {Ghost} />
@@ -79,6 +96,22 @@ const Main = () => (
     <Route path="/knife" component = {Melee} />
 
     <Route path="/avalanche" component = {Avalanche} />
+
+
+    <Route path="/breach" component = {Breach} />
+    <Route path="/brimstone" component = {Brimstone} />
+    <Route path="/cypher" component = {Cypher} />
+    <Route path="/jett" component = {Jett} />
+    <Route path="/killjoy" component = {Killjoy} />
+    <Route path="/omen" component = {Omen} />
+    <Route path="/phoenix" component = {Phoenix} />
+    <Route path="/raze" component = {Raze} />
+    <Route path="/reyna" component = {Reyna} />
+    <Route path="/sage" component = {Sage} />
+    <Route path="/sova" component = {Sova} />
+    <Route path="/viper" component = {Viper} />
+
+
 
     <Route path="/sidearm" component = {Sidearm} />
     <Route path="/smgs" component = {Smgs} />

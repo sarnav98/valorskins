@@ -32,6 +32,7 @@ import {ReactComponent as KnifeIcon} from './icons/Knife.svg';
 
 import {ReactComponent as HomeIcon} from './artwork/192icon.png';
 import {ReactComponent as Arrow1Icon} from './icons/rightarrow.svg';
+import {ReactComponent as Arrow2Icon} from './icons/leftarrow.svg';
 
 
 import {ReactComponent as BreachIcon} from './icons/Breach.svg';
@@ -77,6 +78,7 @@ const Knife50 = (<KnifeIcon/>);
 
 const Home50 = (<HomeIcon/>);
 const Arrow1 = (<Arrow1Icon/>);
+const Arrow2 = (<Arrow2Icon/>);
 
 
 const Breach50 = (<BreachIcon/>);
@@ -265,6 +267,7 @@ iconMap.set("Sova", Sova50);
 iconMap.set("Viper", Viper50);
 
 iconMap.set("Arrow1", Arrow1);
+iconMap.set("Arrow2", Arrow2);
 
 
 
@@ -352,6 +355,17 @@ function DropdownMenuWithSecondary(props) {
     );
   }
 
+  function DropdownItem2(props) {
+    return (
+      <Link to={props.linkTo} className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
+      <span className="icon-left-2"> {props.leftIcon}</span>
+
+         {props.children}
+        <span className="icon-right-2"> {props.rightIcon}</span>
+      </Link>
+    );
+  }
+
   return (
 
     <div className="dropdown" style={{height: menuHeight}}>
@@ -366,9 +380,9 @@ function DropdownMenuWithSecondary(props) {
 
         <div className = "menu">
 
-        <DropdownItem goToMenu="agents" rightIcon={iconMap.get("Arrow1")}>
+        <DropdownItem2 goToMenu="agents" rightIcon={iconMap.get("Arrow1")}>
           Agent Weapons
-        </DropdownItem>
+        </DropdownItem2>
         {listItems}
 
 
@@ -384,41 +398,41 @@ function DropdownMenuWithSecondary(props) {
       >
 
         <div className = "menu">
-        <DropdownItem rightIcon="Back" goToMenu="main"/>
-          <DropdownItem rightIcon = {iconMap.get("Breach")}>
+        <DropdownItem2 leftIcon={iconMap.get("Arrow2")} goToMenu="main"> Back </DropdownItem2>
+          <DropdownItem linkTo="breach" rightIcon = {iconMap.get("Breach")}>
             Breach
           </DropdownItem>
-          <DropdownItem rightIcon = {iconMap.get("Brimstone")}>
+          <DropdownItem linkTo="brimstone" rightIcon = {iconMap.get("Brimstone")}>
             Brimstone
           </DropdownItem>
-          <DropdownItem rightIcon = {iconMap.get("Cypher")}>
+          <DropdownItem linkTo="cypher" rightIcon = {iconMap.get("Cypher")}>
             Cypher
           </DropdownItem>
-          <DropdownItem rightIcon = {iconMap.get("Jett")}>
+          <DropdownItem linkTo="jett" rightIcon = {iconMap.get("Jett")}>
             Jett
           </DropdownItem>
-          <DropdownItem rightIcon = {iconMap.get("Killjoy")}>
+          <DropdownItem linkTo="killjoy" rightIcon = {iconMap.get("Killjoy")}>
             Killjoy
           </DropdownItem>
-          <DropdownItem rightIcon = {iconMap.get("Omen")}>
+          <DropdownItem linkTo="omen" rightIcon = {iconMap.get("Omen")}>
             Omen
           </DropdownItem>
-          <DropdownItem rightIcon = {iconMap.get("Phoenix")}>
+          <DropdownItem linkTo="phoenix" rightIcon = {iconMap.get("Phoenix")}>
             Phoenix
           </DropdownItem>
-          <DropdownItem rightIcon = {iconMap.get("Raze")}>
+          <DropdownItem linkTo="raze" rightIcon = {iconMap.get("Raze")}>
             Raze
           </DropdownItem>
-          <DropdownItem rightIcon = {iconMap.get("Reyna")}>
+          <DropdownItem linkTo="reyna" rightIcon = {iconMap.get("Reyna")}>
             Reyna
           </DropdownItem>
-          <DropdownItem rightIcon = {iconMap.get("Sage")}>
+          <DropdownItem linkTo="sage" rightIcon = {iconMap.get("Sage")}>
             Sage
           </DropdownItem>
-          <DropdownItem rightIcon = {iconMap.get("Sova")}>
+          <DropdownItem linkTo="sova" rightIcon = {iconMap.get("Sova")}>
             Sova
           </DropdownItem>
-          <DropdownItem rightIcon = {iconMap.get("Viper")}>
+          <DropdownItem linkTo="viper" rightIcon = {iconMap.get("Viper")}>
             Viper
           </DropdownItem>
 
